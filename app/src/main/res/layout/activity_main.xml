@@ -4,36 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
-    android:padding="@dimen/_18dp"
-    tools:context=".MainActivity">
-
-   <!-- <ImageButton
-        android:id="@+id/btnShare"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:src="@drawable/ic_baseline_ios_share_24"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="18dp" />-->
-
-    <TextView
-        android:id="@+id/tvCityName"
-        style="@style/TextViewLarge"
-        android:layout_width="@dimen/_0dp"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Bengaluru" />
-
-
-
-
-
-
+    tools:context=".ui.MainActivity">
 
 
 
